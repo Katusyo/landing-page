@@ -1,0 +1,262 @@
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+
+.start, .end {
+    display: flex;
+}
+
+.top {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: space-between;
+    padding-left: 100px;
+    padding-bottom: 50px;
+    padding-right: 100px;
+}
+
+.main {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    display: flex;
+    width: auto;
+}
+
+.text-top {
+    color: #E5E7EB;
+    width: auto;
+    font-size: 18px;
+    padding-bottom: 10px;
+    display: flex;
+    text-align: start;
+}
+
+.logo {
+  font-size: 12px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    font-size: 10px;
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+
+button {
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up {
+  background: royalblue;
+  border: 1px solid royalblue;
+  color: white;
+  width: 100px;
+}
+
+.image-placeholder {
+  background: gray;
+  width: 400px;
+  height: 225px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.text-box {
+    font-size: 10px;
+    color: #E5E7EB;
+    text-align: center;
+    align-self: center;
+}
+
+.start-top, .end-top {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+h3 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.middle-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    background: white;
+    color: black;
+    padding-left: 100px;
+    padding-bottom: 50px;
+    padding-right: 100px;
+}
+
+.box, .subtext {
+  background: white;
+  border: 3px solid #3882F6;
+  border-radius: 13px;
+  width: 100px;
+  height: 100px;
+  gap: 20px;
+}
+
+.subtext {
+    border: 3px solid white;
+    display: flex;
+    flex-direction: space-evenly;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    font-size: 10px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 3px;
+}
+
+.sub-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 3px;
+}
+
+.middle-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: #E5E7EB;
+    width: auto;
+    padding-left: 100px;
+    padding-bottom: 50px;
+    padding-right: 100px;
+}
+
+.inspiration {
+    display: flex;
+    flex-direction: column;
+}
+
+.italicized {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: start;
+}
+
+h3 .italicized{
+    color: #1F2937;
+    font-size: 30px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+h4 {
+    text-align: right;
+}
+
+.bolded {
+    font-weight: bolder;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    background: white;
+    padding-left: 100px;
+    padding-bottom: 70px;
+    padding-top: 70px;
+    padding-right: 100px;
+}
+
+.attention {
+    display: flex;
+    text-align: start;
+    justify-content: space-around;
+    align-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 800px;
+    color: white;
+    background-color: #3882F6;
+    border-radius: 8px;
+    gap: 10px;
+}
+
+.text-bottom {
+    font-size: 10px;
+    text-align: start;
+}
+
+.sign-up-bottom {
+    display: flex;
+    align-self: flex-end;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 1px solid white;
+    margin-top: 10px;
+}
+
+.start-bottom, .end-bottom {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+}
+
+.end-bottom {
+    flex-direction: column;
+}
+
+.footer {
+    height: 72px;
+    width: auto;
+    background: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
